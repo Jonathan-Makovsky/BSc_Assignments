@@ -1,0 +1,11 @@
+double** AllocateMat(int, int); 
+int WeightedAdjancencyMatrix(double ***, double ***, int, int); 
+int DiagonalDegreeMatirx(double ***, double***, int); 
+int NormalizedGraphLaplasian(double ***, double ***, double***, int);
+int Eigengap(double **, int);
+int Jacobi(double ***, double ***, double **, int); 
+int FreeMat(double ***, int);
+int Kmeans(double ***, double ***, int, int, int, int);
+int SortVectors(double ***, double **, int);
+int UMatrix(double ***, double ***, int, int);
+int TMatrix(double ***, double ***, int, int);
